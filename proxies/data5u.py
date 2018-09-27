@@ -6,10 +6,19 @@
 @File    : data5u.py
 @Software: N M $ L ®
 """
+
 import re
 import requests
-
-
+'''
+Function:
+	无忧代理类
+Input:
+	-page(Invalid here): 抓取的页码
+	-proxy_type: 代理类型, 可选项为'all', 'http', 'https'
+	-quality: 高(普)匿代理/普通代理, 可选项为'all', 'anonymous', 'common'
+Return:
+	-proxyList: 该页所有满足条件的代理列表[(ip, port), (ip, port), ...]
+'''
 class data5u():
     def __init__(self):
         self.headers = {
