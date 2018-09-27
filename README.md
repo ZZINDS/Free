@@ -30,7 +30,7 @@ page, proxy_type, quality, api。
 
 含义同上。
 
-③check_proxy：只测试代理的有效性。
+check_proxy：只测试代理的有效性。
 
 可选参数包括
 
@@ -43,3 +43,11 @@ host, headers, method。
 print_help()：打印使用帮助
 
 print_about()：打印作者信息
+测试源码：
+from FreeProxy.proxytool import proxytool
+
+#print(proxytool().get(num=1))
+print(proxytool().print_about())
+#print(proxytool().print_help())
+使用：把名为FreeProxy的包导入
+
