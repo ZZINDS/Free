@@ -23,7 +23,7 @@
 import telnetlib
 
 try:
-    telnetlib.Telnet('117.127.0.196', port='80', timeout=20)
+    telnetlib.Telnet('118.190.95.35', port='9001', timeout=20)
 except:
     print('链接失败')
 else:
