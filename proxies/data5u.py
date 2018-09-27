@@ -23,7 +23,7 @@ class data5u():
 					 'http://www.data5u.com/free/gwpt/index.shtml'
 					 ]
     # 外部调用
-    def get(self, page=1, proxy_type='all', quality='all'):
+    def get(self, page=1, proxy_type='all', quality='anonymous'):
         if page > 1:
             print('[Error]: 无忧代理没有页数.')
             return []
