@@ -19,6 +19,7 @@
 
 #使用telnet
 
+
 import telnetlib
 
 try:
