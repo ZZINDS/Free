@@ -111,8 +111,8 @@ Callable function:
 			return ip66.ip66()
 		elif classname == 'kuaidaili':
 			return kuaidaili.kuaidaili()
-#		elif classname == 'mimiip':
-#			return mimiip.mimiip()  #mimiip效果不好
+		elif classname == 'mimiip':
+			return mimiip.mimiip()  #mimiip效果不好
 		elif classname == 'data5u':
 			return data5u.data5u()
 		elif classname == 'ip3366':
