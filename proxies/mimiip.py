@@ -19,8 +19,7 @@ Input:
 	-quality: 高(普)匿代理/普通代理, 可选项为'all', 'anonymous', 'common'
 Return:
 	-proxyList: 该页所有满足条件的代理列表[(ip, port), (ip, port), ...]
-Tips:
-	可选项输入错误不raise error, 而是返回空列表, 增强鲁棒性
+
 '''
 class mimiip():
 	def __init__(self):
